@@ -1,0 +1,9 @@
+{
+  "name": "personal-ai-minecraft-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Manual, bounded Mineflayer bridge for authorized local Minecraft Java servers",
+  "engines": {"node": ">=22"},
+  "scripts": {"start": "node bridge.cjs --authorized", "test": "node --test bridge.test.cjs"},
+  "dependencies": {"mineflayer": "4.33.0", "vec3": "0.1.10"}
+}

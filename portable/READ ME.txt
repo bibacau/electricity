@@ -1,0 +1,27 @@
+ATLAS PORTABLE FOR WINDOWS X64
+
+For a COMPLETE bundle: extract the entire ZIP to a writable folder, then
+double-click "Start Atlas.cmd". Keep that window open while using Atlas.
+Your existing default browser opens automatically. Press Ctrl+C in the
+launcher window to stop. No Python, Ollama, Node.js, pip, administrator
+access, account, API key, or Internet connection is needed for core use.
+
+The publisher must bundle the runtime, dependencies, engine and a licensed
+pretrained model BEFORE distributing a complete package. The launcher will
+refuse an incomplete or altered bundle; it will never install or download
+missing components on your machine.
+
+Your memory, settings, history and logs stay in this folder under data/.
+Back up that folder when Atlas is stopped. Do not extract into Program Files
+or another read-only folder. Do not run from inside the ZIP preview.
+
+This first portable package targets 64-bit Windows 10/11 and CPU inference.
+The model is a small starting model, not a generally autonomous intelligence.
+Performance depends on your CPU and available RAM. Fine-tuning, Minecraft
+and optional embedding models are developer extensions; they are not part
+of the portable core and no installers for them are launched automatically.
+
+This is unsigned open-source software. Windows may display its own security
+prompt. Review the source and publisher provenance before running binaries.
+Licenses and provenance for bundled third-party software are in licenses/,
+runtime/ and bundle.json. Model weights have their own license.
